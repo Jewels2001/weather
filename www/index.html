@@ -33,7 +33,7 @@
             style-src 'self' 'unsafe-inline' fonts.googleapis.com; 
             media-src *; 
             img-src 'self' data: content:;
-            connect-src 'self' https://api.openweathermap.org;
+            connect-src https://api.openweathermap.org;
             font-src 'self' fonts.gstatic.com;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -48,25 +48,41 @@
         <title>Hello World</title>
     </head>
     <body>
-        <header> Is it Sweater Weather today? </header></div>
+        <header> Is it Sweater Weather today? </header>
         <div> 14&deg;C</div>
         <div>max: 29&deg;C</div>
         <div>min: 10&deg;C</div>
         <div><i class="wi wi-day-sunny"></i></div>
-        <!-- <div class="app"> -->
-            <!-- <h1>bri </h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div> -->
-            <!-- <div > -->
-                <h1> Is it Sweater Weather today? </h1>
-  
-                <br><p><span class="material-icons">
-                    location_on
-                </span>Lethbridge, AB</p>
+        <hr>
+            <h1> Is it Sweater Weather today? </h1>
+            <div class="box" id="icon">
+                <h3 id="description"></h3>
             </div>
-        </div>
+            <div>
+                <div class="rect1">
+                    <h3><span class="material-icons">
+                            location_on
+                        </span>Lethbridge, AB</h3>
+                </div>
+                <div class="rect1">
+                    <span class="material-icons"> thermostat</span>
+                    <h3 id="temp"> </h3>
+                    <i class="wi wi-celsius"></i>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+                <div>
+                    <h3 id="maxtemp">  </h3>
+                </div>
+                <div>
+                     <h3 id="maxtemp"> </h3>
+                </div>
+                <div>
+                    <span class="material-icons"> air</span>
+                    <p id="wind"></p>
+                </div>
         <script src="cordova.js"></script>
         <script type="text/javascript" src="js/Live-Weather-Data-JS/weatherapp.js"></script>
         <!-- <script src="js/index.js"></script> -->

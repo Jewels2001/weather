@@ -1,11 +1,11 @@
 var xmlhttp;
 var weatherURL;
 
-var APIkey = "81e0cbbbe9f8279292196ea4421ae0bb" //insert your API key from open weather map https://home.openweathermap.org/users/sign_up
-var location = "Lethbridge,ca"; // option to change location 
+var APIkey = "ee20eb078b68aff0d6efff50d02a796f" //insert your API key from open weather map https://home.openweathermap.org/users/sign_up
+var l = "lethbridge,ca"; // option to change location 
 
 window.onload = function () {  
-    weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=" + location + "&units=metric&appid=" + APIkey;
+    weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=" + l + "&units=metric&appid=" + APIkey;
     weather();
 }
 
