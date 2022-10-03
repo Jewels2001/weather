@@ -84,9 +84,10 @@ h1 {
 }
 
 .box {
-    height: 10%;
+    /* height: 10%; */
     width: 30%;
-    float: left;
+    /* float: left; */
+
     background: #9e9e9e;
     border-style: dashed;
     border-width: 2px;
@@ -94,7 +95,7 @@ h1 {
 }
 
 .rect1 {
-    height: 5%;
+    /* height: 5%; */
     width: 69%;
     float: right;
     display: inline;
@@ -102,4 +103,24 @@ h1 {
 
 div {
     display: block;
+    width: auto;
+}
+
+h3 {
+    display: inline;
+}
+
+.insideRect {
+    display: inline;
+    height: 5%;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    height: 20%;
+}
+
+img {
+    width: 100%;
 }
