@@ -56,8 +56,11 @@
         <hr>
             <h1> Is it Sweater Weather today? </h1>
         <div class="flex-container">
-            <div class="box" id="icon">
+            <div class="box">
                 <h3 id="description"></h3>
+                <i id="icon"></i>
+                <span class="wi wi-sunrise"></span>
+
             </div>
             <div>
                 <div class="rect1">
@@ -77,19 +80,28 @@
             <hr>
             <br>
                 <div>
-                    <h3 id="maxtemp">  </h3>
+                    <h3> Max Temp: </h3>
+                    <h3 id="maxtemp"> 15 </h3>
+                    <h3> &deg;C </h3>
                 </div>
                 <div>
-                     <h3 id="mintemp"> </h3>
+                    <h3> Min Temp: </h3>
+                     <h3 id="mintemp"> -5 </h3>
+                     <h3> &deg;C </h3>
                 </div>
                 <div>
                     <span class="material-icons"> air</span>
-                    <p id="wind"></p>
+                    <h3 id="wind"></h3>
+                    <h3> km / hr</h3>
                 </div>
                 <div>
                     <span class="material-icons"> air</span>
                     <p id="humidity"></p>
                 </div>
+            <br>
+            <div>
+
+            </div>
         <script src="cordova.js"></script>
         <script type="text/javascript" src="js/Live-Weather-Data-JS/weatherapp.js"></script>
         <!-- <script src="js/index.js"></script> -->
