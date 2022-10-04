@@ -25,7 +25,7 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#E4E4E4;
-    background-image: linear-gradient(to bottom, #6ee960, #1B1B1B 98%);
+    background-image: linear-gradient(to bottom, #60e9d9, #1B1B1B 98%);
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size:12px;
     height:100vh;
@@ -84,22 +84,31 @@ h1 {
 }
 
 .box {
-    /* height: 10%; */
     width: 30%;
     margin-left: 5px;
     text-align: center;
+    vertical-align: middle;
 
-    background: #f95b5b;
+    background: #36ff51;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+.box2 {
+    width: 70%;
+    margin-left: 5px;
+    text-align: center;
+
     border-style: dashed;
     border-width: 2px;
     border-radius: 3px;
 }
 
 .rect1 {
-    /* height: 5%; */
-    width: 70%;
-    float: right;
-    display: inline;
+    height: 5vh;
+    text-align: justify;
+    display: block;
 }
 
 div {
@@ -123,11 +132,19 @@ h3 {
     height: 20%;
 }
 
-/* i {
-    width: 100%;
-} */
 
 .rect {
     display: block;
     height: 5vh;
+}
+
+.break {
+    height: 20px;
+    background-color: #295284"
+}
+
+.break2 {
+    height: 5px;
+    background-color: #E4E4E4;
+
 }
