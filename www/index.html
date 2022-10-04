@@ -48,16 +48,12 @@
         <title>Hello World</title>
     </head>
     <body>
-        <header> Is it Sweater Weather today? </header>
-        <div> 14&deg;C</div>
-        <div>max: 29&deg;C</div>
-        <div>min: 10&deg;C</div>
         <div><i class="wi wi-day-sunny"></i></div>
         <hr>
             <h1> Is it Sweater Weather today? </h1>
         <div class="flex-container">
             <div class="box">
-                <h3 id="description"></h3>
+                <h3 id="description"> Sunny! </h3>
                 <i id="icon"></i>
                 <span class="wi wi-sunrise"></span>
 
@@ -70,8 +66,8 @@
                 </div>
                 <div class="rect1">
                     <span class="material-icons"> thermostat</span>
-                    <h3 id="temp" class="insideRect"> </h3>
-                    <h3 class="insideRect"> &deg;C</h3>
+                    <h3 id="temp" class="insideRect"> 15 </h3>
+                    <h3> &deg;C</h3>
                     <!-- <i class="wi wi-celsius"></i> -->
                 </div>
             </div>
@@ -79,24 +75,29 @@
             <br>
             <hr>
             <br>
-                <div>
+                <div class="rect">
+                    <i class="wi wi-thermometer"></i>
                     <h3> Max Temp: </h3>
                     <h3 id="maxtemp"> 15 </h3>
                     <h3> &deg;C </h3>
                 </div>
-                <div>
+                <div class="rect">
+                    <h3> <i class="wi wi-thermometer-exterior"></i> </h3>
                     <h3> Min Temp: </h3>
                      <h3 id="mintemp"> -5 </h3>
                      <h3> &deg;C </h3>
                 </div>
-                <div>
+                <div class="rect">
                     <span class="material-icons"> air</span>
-                    <h3 id="wind"></h3>
+                    <h3> Wind: </h3>
+                    <h3 id="wind"> 10 </h3>
                     <h3> km / hr</h3>
                 </div>
                 <div>
-                    <span class="material-icons"> air</span>
-                    <p id="humidity"></p>
+                    <span class="material-icons"> water_drop</span>
+                    <h3> Humidity: </h3>
+                    <h3 id="humidity"> 0 </h3>
+                    <h3> % </h3>
                 </div>
             <br>
             <div>
